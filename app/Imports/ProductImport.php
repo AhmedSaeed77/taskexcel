@@ -35,5 +35,6 @@ class ProductImport implements  ToModel, WithStartRow ,WithHeadingRow
             "type" => $row['type'],
             "counter" => intval($row['counter']) ,
         ]);
+
     }
 }
